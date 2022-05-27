@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FAFAFA;
+box-shadow: 48px 48px 64px rgba(0, 0, 0, 0.1);
+/* font-family: 'Space Grotesk',sans-serif; */
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 15px 150px;
+}
+.logo img{
+    /* margin-left: 25px; */
+    cursor: pointer;
+}
+nav ul{
+   list-style: none;
+   margin-left: 10px;
+   
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 61px;
+}
+nav ul li a{
+    font-family: 'Space Grotesk';
+    text-decoration: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+color: black;
+    
+   
+}
+li a.active{
+    color: #0F298B;
+}
+.get-btn button{
+    background: #2549D3;
+    border-radius: 5.14468px;
+    border: none;
+    color: #FAFAFA;
+    font-family: 'Space Grotesk';
+    padding: 8px 15px;
+}
+.hrr{
+    width: 1500px;
+    height: 0.16px;
+    background-color: rgb(155, 150, 150);
+   
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+    
+}
+.body-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body-title h1{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 32.9259px;
+line-height: 42px;
+
+color: #0F298B;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.body-title p{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16.463px;
+line-height: 21px;
+
+color: rgba(0, 0, 0, 0.81);
+margin-bottom: 20px;
+}
+.button{
+    display: flex;
+}
+button.learn {
+    margin-right: 25px;
+}
+
+
+i.fa-solid.fa-play {
+   
+    margin-top: 3px;
+    background: #0F298B;
+    padding: 7px 9px;
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+}
+.icon i:hover{
+    animation: animate 2s linear infinite;
+    
+}
+@keyframes animate {
+    from {
+      box-shadow: 0px 0px 1em #5868a0;
+    }
+    to {
+      box-shadow: 0px 0px 3em #5868a0;
+    }
+  }
+.small-card{
+    width: 933px;
+height: 85.4px;
+margin: auto;
+background: #fff;
+box-shadow: 12.3472px 12.3472px 24.6944px rgba(37, 73, 211, 0.05);
+border-radius: 14.4051px;
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 50px;
+margin-top: 50px;
+align-items: center;
+}
+.small-card h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3472px;
+    line-height: 30px;
+    color: #0F298B;
+}
+.small-card h5{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+color: #000000;
+
+opacity: 0.5;
+}
+.fa-solid, .fas {
+    
+    margin-left: 5px;
+}
+
+span{
+    margin-left: 5px;
+}
+.head h1{
+    text-align: center;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 24.6944px;
+line-height: 32px;
+color: #0F298B;
+}
+.head p{
+    text-align: center;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16.463px;
+line-height: 21px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.81);
+margin-bottom: 20px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    
+}
+.card1,.card2,.card3{
+    background: #FFFFFF;
+box-shadow: 12.3472px 12.3472px 24.6944px rgba(0, 0, 0, 0.05);
+margin-left: 30px;
+padding: 5px 10px;
+}
+.card1 .fa-location-dot{
+    font-size: 46px;
+    margin-left: 60px;
+    margin-bottom: 17px;
+    margin-top: 20px;
+    color: #0F298B;
+}
+.card h3{
+    text-align: center;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+}
+.card p{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 12.3472px;
+line-height: 18px;
+text-align: center;
+}
+.card img{
+    margin-left: 39px;
+    margin-top: 5px;
+}
+.head2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+
+.head2-title h2{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 32.9259px;
+line-height: 42px;
+color: #0F298B;
+margin-bottom: 10px;
+}
+.head2-title p{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+color: rgba(0, 0, 0, 0.81);
+margin-bottom: 10px;
+}
+.class{
+    display: flex;
+    justify-content: space-between;
+}
+.class ul li{
+    list-style: none;
+    margin-top: 8px;
+}
+.class ul li a{
+    text-decoration: none;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 11px;
+color: #000000;
+}
+.class ul li img{
+    width: 14px;
+    margin-right: 16px;
+}
+button.view {
+   margin-right: 106px;
+    float: right;
+}
+.mini-card{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.minicard-1,.minicard-2,.minicard-3{
+    background: #FFFFFF;
+box-shadow: 8.58762px 8.58762px 17.1752px rgba(0, 0, 0, 0.05);
+border-radius: 0px 14.213px;
+padding: 25px 46px;
+margin-right: 30px;
+}
+.minicard-title{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+       
+     
+}
+
+.place h2{
+  font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+
+}
+.place p{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size:13px;
+line-height: 16px;
+color: #000000;
+opacity: 0.8;
+}
+.dup p{
+    margin-left: 15px;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+margin-top: 10px;
+}
+.card3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1st,.card2nd,.card3rd{
+    background: rgb(245, 241, 241);
+border-radius: 6.68647px;
+padding: 10px 25px;
+}
+.card1st{
+  margin-right: -99px;
+}
+.card2nd{
+    margin-right: -104px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #0F298B;
+    margin-top: 50px;
+   
+}
+footer h2{
+    margin-top: 70px;
+   
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size:22px;
+line-height: 16px;
+margin-bottom: 30px;
+
+}
+.footer-1st img{
+    margin-top: 15px;
+    width: 150px;
+    margin-bottom: 10px;
+    
+}
+.footer-1st p{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+footer li{
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    
+    
+    
+    color: #FFFFFF;
+    
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
